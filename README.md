@@ -1,110 +1,109 @@
 # customer-churn-prediction-analysis
 This project performs end-to-end customer churn analysis using SQL for data extraction, Power BI for interactive dashboard visualization, and Machine Learning for churn prediction. The objective is to identify key churn drivers and provide data-driven strategies to improve customer retention.
 <br>
-📊 Customer Churn Analysis – End-to-End Data Analytics Project
-📌 Project Summary
+🎯 Project Summary
+Customer churn — the rate at which customers leave a product/service — impacts revenue and profitability. The goal of this project is to analyze churn behavior using data analytics and machine learning and to provide insights and recommendations that help businesses reduce churn and improve customer retention.
+<br>
+This end-to-end workflow includes:
 
-This project focuses on analyzing customer churn data to identify key factors that contribute to customer attrition. The objective is to help businesses improve customer retention by providing data-driven insights and strategic recommendations.
+Data cleaning and transformation
 
-The project covers the complete analytics lifecycle including data extraction, cleaning, exploratory data analysis (EDA), KPI development, dashboard creation, and churn pattern analysis.
+Exploratory data analysis
 
-🎯 Business Problem
+KPI measurements
 
-Customer churn directly impacts revenue and profitability.
-The goal of this project is to:
+Interactive dashboard creation
 
-Identify customers likely to churn
-
-Analyze key churn drivers
-
-Track retention KPIs
-
-Provide actionable business recommendations
+Applying basic machine learning for churn prediction
 
 🛠 Tools & Technologies
-
-SQL – Data cleaning, transformation, and querying
-
-Power BI – Data modeling, DAX calculations, interactive dashboard creation
-
-Excel – Initial data validation and preprocessing
+Tool	Purpose
+SQL	Data extraction, cleaning, transformations
+Power BI	Data modeling, DAX calculations, visualization
+Excel	Data validation, preprocessing
+Machine Learning	Predict potential churn behavior
+YouTube (Video Reference)	Visual demonstration of project steps
 
 📂 Dataset Description
 
-The dataset includes customer information such as:
+Typical churn datasets contain columns such as:
 
-Customer ID
+Customer demographic information
 
-Gender
+Tenure and service usage
 
-Tenure
+Contract type
 
-Contract Type
+Monthly & total charges
 
-Payment Method
+Payment method
 
-Monthly Charges
+Churn status (Yes/No)
 
-Total Charges
+📊 Key Metrics & KPIs
 
-Churn Status (Yes/No)
+The project covers:
 
-📊 Key Performance Indicators (KPIs)
+Total Customers
 
-Overall Churn Rate
-
-Customer Retention Rate
+Churn Rate (%) – Percentage of customers lost
 
 Average Monthly Charges
 
 Churn by Contract Type
 
-Churn by Tenure
+Retention Trends by Customer Group
 
-Churn by Payment Method
+These KPIs help identify patterns and key influencers of churn.
 
 📈 Dashboard Features
 
-Interactive filters and slicers
+The interactive Power BI dashboard includes:
 
-KPI summary cards
+Filters for contract types, gender, payment methods
 
-Trend analysis visuals
+Summary KPI cards
 
-Customer segmentation analysis
+Trend visuals for churn over time
 
-Business performance overview
+Comparison between churned and retained customers
 
-🔍 Key Insights
+Drill-down capabilities for deeper analysis
 
-Customers with month-to-month contracts have a higher churn rate.
+🔍 Project Workflow
 
-Higher monthly charges are associated with increased churn probability.
+Business Understanding – Define churn objectives
 
-Customers with shorter tenure are more likely to churn.
+Data Cleaning – Handle missing values and standardize formats
 
-💡 Business Recommendations
+Exploratory Data Analysis – Identify patterns and trends
 
-Promote long-term contracts with incentives
+Dashboard Design – Build interactive visuals in Power BI
 
-Offer loyalty benefits to high-risk customers
-
-Improve customer onboarding experience
-
-🚀 Project Workflow
-
-Understanding Business Requirements
-
-Data Cleaning & Preparation using SQL
-
-Exploratory Data Analysis
-
-KPI Creation & DAX Calculations
-
-Power BI Dashboard Development
+Machine Learning Integration – Predict future churn behaviors
 
 Insight Generation & Reporting
 
+💡 Key Insights (Typical Outcomes)
+
+While outcomes vary by dataset, churn analysis often shows:
+
+Shorter tenure customers churn more
+
+Certain contract types (e.g., month-to-month) have higher churn rates
+
+Higher charges correlate with increased churn risk
+
+💼 Business Recommendations
+
+Based on churn insights:
+
+Encourage longer contract durations
+
+Offer service enhancements for high-risk segments
+
+Run retention campaigns for customers showing early churn signals
+
 📌 Conclusion
 
-This project demonstrates my ability to perform end-to-end data analysis, build interactive dashboards, and translate business requirements into actionable insights.
+This end-to-end project highlights how SQL, Power BI, and basic machine learning can be combined to transform raw customer data into actionable business insights. It demonstrates analytical reasoning, visualization skills, and predictive analytics — key competencies for a data analyst.
